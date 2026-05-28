@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .aa {
+        fill: none;
+        stroke: #d1d1d1;
+      }
+    </style>
+  </defs>
+  <path id="c" data-name="path1873" class="aa" d="M67.49,1083.19C67.4,490.8,547.73,10.5,1140.33,10.41"/>
+  <path id="d" data-name="path1875" class="aa" d="M1803.6,673.26c-.05-366.13-297.01-662.9-663.27-662.84"/>
+  <path id="e" data-name="path2762" class="aa" d="M1393.84,1083c226.34-.03,409.8-183.48,409.77-409.74"/>
+  <path id="f" data-name="path2764" class="aa" d="M1140.45,829.78c.02,139.87,113.46,253.24,253.38,253.22"/>
+  <path id="g" data-name="path2766" class="aa" d="M1140.45,829.78c-.01-86.39,70.03-156.43,156.46-156.45"/>
+  <path id="h" data-name="path2768" class="aa" d="M1393.79,770.15c0-53.48-43.38-96.83-96.88-96.82h0"/>
+  <path id="i" data-name="path2770" class="aa" d="M1393.79,770.15c0,32.91-26.68,59.59-59.6,59.6h0"/>
+  <path id="j" data-name="path2772" class="aa" d="M1296.93,792.51c0,20.57,16.69,37.24,37.26,37.24h0"/>
+  <path id="k" data-name="path2774" class="aa" d="M1296.93,792.51c0-12.34,10-22.35,22.35-22.35h0"/>
+  <path id="l" data-name="rect2784" class="aa" d="M1319.28,792.51v-22.35"/>
+  <path id="m" data-name="rect2786" class="aa" d="M1334.18,792.51h-37.26"/>
+  <path id="n" data-name="rect2788" class="aa" d="M1319.28,785.06h14.9"/>
+  <path id="o" data-name="rect2790" class="aa" d="M1326.73,785.06v7.45"/>
+  <path id="p" data-name="rect2794" class="aa" d="M1334.18,770.16v59.59"/>
+  <path id="q" data-name="rect2796" class="aa" d="M1296.92,770.17h96.87"/>
+  <path id="r" data-name="rect2798" class="aa" d="M1296.93,829.76l-.02-156.42"/>
+  <path id="s" data-name="rect2800" class="aa" d="M1393.8,829.74l-253.35.04"/>
+  <path id="t" data-name="rect2802" class="aa" d="M1393.78,673.32l.06,409.68"/>
+  <path id="u" data-name="rect2804" class="aa" d="M1140.43,672.98l663.55-.1"/>
+  <path id="v" data-name="rect2806" class="aa" d="M1140.49,1083.04l-.16-1072.62"/>
+  <path id="w" data-name="path1028" class="aa" d="M1334.18,785.06c0-8.23-6.67-14.9-14.9-14.89"/>
+  <path id="x" data-name="path1030" class="aa" d="M1334.18,785.06c0,4.11-3.33,7.45-7.45,7.45"/>
+  <path id="y" data-name="path1034" class="aa" d="M1319.29,785.05c0,4.11,3.34,7.45,7.45,7.45h0"/>
+</svg>
