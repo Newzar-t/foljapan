@@ -1,6 +1,8 @@
-import { animate, svg, stagger } from "animejs";
+import { animate, svg, stagger, splitText, split, createTimeline } from "animejs";
 
 let logoSpan;
+let videoHome;
+let textintro;
 
 window.addEventListener("DOMContentLoaded", () => {
   homePage();
@@ -15,15 +17,31 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 const homePage = () => {
-  logoSpan = document.querySelector(".logo-container");
 
-  logoSpan.style.animation = "fontchanging 1.2s ease-out";
+  logoSpan = document.querySelector("#logo");
+  videoHome = document.querySelector("#videoHome");
+  textintro = document.querySelector("#textIntro");
 
+  logoSpan.style.animation = "fontchanging 1.2s linear infinite";
 
+  const { words} = splitText('#textIntro', {
+    words : {wrap : 'clip'
+    },
+  })
+  
+  textintro.style.opacity = 0;
+
+  setTimeout(()=> {
+    textintro.style.opacity = 1;
+    createTimeline({defaults : { ease: 'inOut(3)' , duration : 600}})
+  .add(words, 
+    {
+  y: [$el => +$el.dataset.line % 2 ? '100%' : '-100%', '0%'],
+}, stagger(130))
+.init()
+  }, 700)
+  
 };
 
-class VideoContainer {
-  constructor(link){
-    link = this.link;
-  }
-}
+
+
