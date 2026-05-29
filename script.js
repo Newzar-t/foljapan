@@ -4,6 +4,10 @@ let logoSpan;
 let videoHome;
 let textintro;
 
+window.onload(() => {
+  
+})
+
 window.addEventListener("DOMContentLoaded", () => {
   homePage();
 
